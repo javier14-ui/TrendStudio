@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.dpapi
+*.key
+.env*
+cache/
+history.json
+settings.json
+research/
+resultado-*.json
+verificacion*.json
+*.zip
+*.exe

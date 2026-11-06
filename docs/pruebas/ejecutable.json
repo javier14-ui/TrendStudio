@@ -1,0 +1,31 @@
+{
+  "frozen": true,
+  "qt": "6.12.0",
+  "tests": {
+    "live_rss": {
+      "count": 74,
+      "errors": []
+    },
+    "ollama": {
+      "model": "llama3.2:1b",
+      "seconds": 8.33,
+      "titles": 3,
+      "hooks": 3,
+      "warnings": 3
+    },
+    "json_roundtrip": true,
+    "csv": true,
+    "html": true,
+    "script_package": true,
+    "dpapi": true,
+    "qt_window": true
+  },
+  "date": "2026-11-06T03:55:12.158501+00:00",
+  "window_seconds": 0.229,
+  "elapsed_seconds": 13.34,
+  "exit_code": 0,
+  "peak_rss_mb": 96.2,
+  "wall_seconds": 14.53,
+  "python_removed_from_path": true,
+  "runtime_from_bundle": true
+}

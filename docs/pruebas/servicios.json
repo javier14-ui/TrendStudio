@@ -1,0 +1,79 @@
+{
+  "created": "2026-11-06T03:45:11.353805+00:00",
+  "results": [
+    {
+      "test": "RSS y radar",
+      "ok": true,
+      "count": 74,
+      "errors": [],
+      "seconds": 2.58
+    },
+    {
+      "test": "YouTube RSS público",
+      "ok": true,
+      "count": 0,
+      "errors": [],
+      "seconds": 0.65
+    },
+    {
+      "test": "YouTube oEmbed",
+      "ok": true,
+      "count": 1,
+      "errors": [],
+      "seconds": 0.77
+    },
+    {
+      "test": "TikTok oEmbed",
+      "ok": true,
+      "count": 1,
+      "errors": [],
+      "seconds": 0.71
+    },
+    {
+      "test": "Modelos Ollama",
+      "ok": true,
+      "models": [
+        {
+          "name": "llama3.2:1b",
+          "size": 1321098329
+        }
+      ]
+    },
+    {
+      "test": "Generación Ollama real",
+      "ok": true,
+      "seconds": 8.44,
+      "model": "llama3.2:1b",
+      "titles": [
+        "El desbordamiento del río Callacame: un desafío para la población de Puno",
+        "¿Cómo la vivienda en Puno previene el desbordamiento del río Callacame?",
+        "¿Qué es lo que impide que el río Callacame se desborde en Puno?"
+      ],
+      "quality_notes": [
+        "Se muestran titulares originales como declaraciones de las fuentes; las paráfrasis de IA no superaron el control de citas."
+      ],
+      "field_provenance": {
+        "resumen": "ollama_borrador",
+        "categoria": "ollama_borrador",
+        "afirmaciones": "titulares_originales_no_IA",
+        "grupos": "ollama_borrador",
+        "contradicciones": "ollama_borrador",
+        "patrones": "ollama_borrador",
+        "titulos": "ollama_borrador",
+        "ganchos": "ollama_borrador",
+        "enfoques": "ollama_borrador",
+        "verificar": "ollama_borrador"
+      }
+    },
+    {
+      "test": "Caché IA real",
+      "ok": true,
+      "seconds": 0.017
+    },
+    {
+      "test": "Cancelación Ollama real",
+      "ok": true,
+      "seconds": 0.42
+    }
+  ]
+}

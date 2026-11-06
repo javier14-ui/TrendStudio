@@ -1,0 +1,5 @@
+LGPL-3.0.txt: https://raw.githubusercontent.com/qt/qtbase/dev/LICENSES/LGPL-3.0-only.txt
+GPL-3.0.txt: https://raw.githubusercontent.com/qt/qtbase/dev/LICENSES/GPL-3.0-only.txt
+Qt-GPL-exception-1.0.txt: https://raw.githubusercontent.com/qt/qtbase/dev/LICENSES/Qt-GPL-exception-1.0.txt
+Qt-third-party-notices.html: https://doc.qt.io/qt-6/licenses-used-in-qt.html
+PySide-licenses.html: https://doc.qt.io/qtforpython-6/licenses.html
